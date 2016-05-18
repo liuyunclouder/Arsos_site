@@ -1,0 +1,84 @@
+/*common*/
+.btn {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+/*main*/
+
+html, body {
+	height: 100%;
+	background-color: #ECECEC;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.main {
+	min-height: 600px;
+}
+
+.main_content {
+	position: relative;
+	min-height: 400px;
+	background: url('./../img/background.jpg') center center; 
+	background-size: cover;
+}
+
+.main_content .words {
+	position: absolute;
+	top: 26%;
+	left: 40%;
+	color: white;
+}
+
+.main_content .words h2 {
+	font-size: 65px;
+}
+
+.main_content .download_btn {
+	position: absolute;
+	top: 70%;
+	left: 43%;
+	color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.main_content .download_btn:hover {
+	color: white;
+}
+
+
+
+
+
+
+.detail_content {
+	min-height: 200px;
+}
+
+.detail_content p {
+	color: black;
+	text-align: center;
+}
+
+
