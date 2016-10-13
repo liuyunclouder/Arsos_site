@@ -187,15 +187,13 @@ box-shadow: 0px 18px 20px 8px rgba(0,0,0,0.75);
 
 .main_header .header_content li a {
 	height: 66px;
-	line-height: 66px;
+	line-height: 74px;
 	color: white;
 }
 
 .main_content {
     position: relative;
     height: 100%;
-    /*background: url('./../img/background.jpg') center center;*/
-
 	background-color: white;
     background-size: cover;
 	background: #757F9A; /* fallback for old browsers */
@@ -205,9 +203,9 @@ box-shadow: 0px 18px 20px 8px rgba(0,0,0,0.75);
     
 }
 
-.main_content .words {
+.main_content .product {
 	padding-top: 150px;
-	width: 162px;
+	width: 375px;
 	margin: 0 auto;
     /*position: absolute;
     top: 26%;
@@ -215,25 +213,66 @@ box-shadow: 0px 18px 20px 8px rgba(0,0,0,0.75);
     color: white;
 }
 
-.main_content .words h2 {
-    font-size: 65px;
+.main_content .product .img {
+	float: left;
+	height: 200px;
+
 }
 
-.main_content .download_btn {
-    /*position: absolute;
-    top: 70%;
-    left: 43%;*/
+.main_content .product .img img {
+	width: 150px;
+	height: 150px;
+}
+
+.main_content .product .words {
+	padding-left: 170px;
+}
+
+.main_content .product .words h2 {
+    font-size: 65px;
+    text-align: center;
+}
+
+.main_content .product .download_btn {
     display: block;
-    width: 90px;
     margin: 0 auto;
+    margin-top: 20px;
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
 }
 
-.main_content .download_btn:hover {
+.main_content .product .download_btn:hover {
     color: white;
 }
+
+
+
+
+.main_dec {
+	position: absolute;
+	bottom: -400px;
+	left: -200px;
+	width: 600px;
+	height: 800px;
+	/*background: url('./../img/background.jpg') center center;
+	background-size: 50%;*/
+
+	-webkit-box-shadow: 10px 10px 24px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 24px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 24px -4px rgba(0,0,0,0.75);
+	
+	transform: rotate(28deg) scale(0.596) skew(-9deg) translate(-3px);
+-webkit-transform: rotate(28deg) scale(0.596) skew(-9deg) translate(-3px);
+-moz-transform: rotate(28deg) scale(0.596) skew(-9deg) translate(-3px);
+-o-transform: rotate(28deg) scale(0.596) skew(-9deg) translate(-3px);
+-ms-transform: rotate(28deg) scale(0.596) skew(-9deg) translate(-3px);
+
+}
+
+
+
+
 
 .detail_content {
     min-height: 200px;
@@ -243,3 +282,14 @@ box-shadow: 0px 18px 20px 8px rgba(0,0,0,0.75);
     color: black;
     text-align: center;
 }
+
+
+
+/*.footer {
+	position: relative;
+	z-index: 11;
+	width: 100%;
+    height: 44px;
+    background-color: rgba(0,0,0,1);
+}*/
+
